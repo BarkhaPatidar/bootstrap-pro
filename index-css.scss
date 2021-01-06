@@ -1,0 +1,178 @@
+$navbar-bg: #343A40;
+$nav-toggle-bar: #ffffff75;
+$white-clr: #ffffff;
+$main-btn: #167BFF;
+$second-btn: #55595c;
+$font-color: #6C757D;
+
+.navbar-inverse {
+    background-color: $navbar-bg;
+    border-radius: 0;
+
+    .navbar-toggle {
+        border-color: $nav-toggle-bar;
+        padding: 5px 15px 10px 15px;
+
+        .icon-bar {
+            background-color: $nav-toggle-bar;
+            margin-top: 5px;
+        }
+    }
+    .header {
+        padding: 0px 32px;
+        padding-left: 20px;
+
+        h3 {
+            color: $white-clr;
+        }
+    }
+    .navbar-brand {
+        color: $white-clr;
+        font-size: 20px;
+        font-weight: 500;
+
+        span {
+            font-size: 20px;
+        }
+    }
+
+    .about-data {
+        padding: 0 180px 0 0;
+
+        p {
+            font-size: 16px;
+        }
+    }
+
+    .about-social-links {
+        a {
+            color: $white-clr;
+            font-size: 16px;
+        }
+    }
+}
+
+.jumbo-wrapper {
+    text-align: center;
+    padding-top: 20px;
+    margin: 10px;
+
+    .jumbo-container {
+        display: inline-block;
+        width: 58%;
+        text-align: center;
+
+        .jumbotron {
+            background-color: $white-clr;
+        }
+
+        span {
+            font-size: 40px;
+            font-weight: 200;
+        }
+
+        p {
+            color: $font-color;
+            padding: 10px;
+        }
+
+        .blue-btn {
+            background-color: $main-btn;
+            border-color: $main-btn;
+            font-size: 16px;
+        }
+
+        .secondary-btn {
+            background-color: $second-btn;
+            border-color: $second-btn;
+            color: $white-clr;
+            font-size: 16px;
+        }
+    }
+}
+
+.header-links {
+    display: block;
+}
+
+.panel-title {
+    color: $white-clr;
+}
+
+.heading-about {
+    color: $font-color;
+}
+
+.thumb-container {
+    background-color: #F8F9FA;
+    padding: 50px 0;;
+
+    .thumbnail {
+        border-radius: 2px;
+        box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+        padding: 0;
+    
+        .thumb-offset {
+            color: $white-clr;
+            font-size: 20px;
+            font-weight: 200;
+            position: relative;
+            top: 40%;
+        }
+    
+        .thumb-box {
+            background-color: $second-btn;
+            border-radius: inherit;
+            height: 225px;
+            text-align: center;
+            vertical-align: middle;
+            width: 100%;
+        }
+    
+        .caption {
+            padding: 15px;
+        
+            .thumb-text {
+                font-size: 17px;
+                padding: 8px 0;
+            }
+    
+            .caption-footer {
+                display: inline-block;
+                text-align: right;
+                width: 49%;
+            }
+    
+            .caption-footer-left {
+                display: inline-block;
+                width: 49%;
+                 
+                a {
+                    border-radius: 2px;
+                }
+            }
+        }
+    }
+
+}
+
+.footer {
+    padding: 40px;
+
+    p {
+        color: $font-color;
+        font-size: 15px;
+    }
+
+    a {
+        font-size: 15px;
+        color: $main-btn;
+    }
+}
+
+@media (min-width: 768px){
+    .navbar-toggle {
+        display: block;
+    }
+}
+
